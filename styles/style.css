@@ -51,7 +51,7 @@
 .menupc ul li a {
   padding: 5px 10px;
   position: relative;
-  transition: 0.5s all ease;
+  transition: 0.5s font-size ease;
 }
 .menupc ul li a::before {
   content: " ";
