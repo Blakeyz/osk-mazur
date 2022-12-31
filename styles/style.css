@@ -171,14 +171,17 @@
   transform: translateY(-10px) rotate(45deg);
 }
 
-.contentwrap {
-  min-height: 100vh;
-  padding-top: 60px;
+body {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.6)), url("../imgs/bgmain.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: local;
+  background-attachment: fixed;
+}
+
+.contentwrap {
+  min-height: 100vh;
+  padding-top: 60px;
   font-family: "Montserrat", sans-serif;
 }
 .contentwrap .content {
